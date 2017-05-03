@@ -26,7 +26,7 @@ namespace UTIL{
   class CollectionParameterMap {
 
   public:  
-    CollectionParameterMap() = default ;
+    CollectionParameterMap() {};
     CollectionParameterMap(const CollectionParameterMap& ) = delete ;
     CollectionParameterMap& operator=(const CollectionParameterMap& ) = delete ;
     
